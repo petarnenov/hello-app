@@ -1,0 +1,69 @@
+{
+    "clients": [
+        {
+            "clientId": 1,
+            "clientName": "John Doe",
+            "roles": [
+                {
+                    "roleId": 1,
+                    "roleName": "Admin"
+                },
+                {
+                    "roleId": 2,
+                    "roleName": "User"
+                }
+            ]
+        },
+        {
+            "clientId": 2,
+            "clientName": "Alice",
+            "roles": [
+                {
+                    "roleId": 2,
+                    "roleName": "User"
+                }
+            ]
+        },
+        {
+            "clientId": 3,
+            "clientName": "Craig",
+            "roles": [
+                {
+                    "roleId": 2,
+                    "roleName": "User"
+                }
+            ]
+
+        },
+        {
+            "clientId": 4,
+            "clientName": "Bob",
+            "roles": [
+                {
+                    "roleId": 2,
+                    "roleName": "User"
+                }
+            ]
+        },
+        {
+            "clientId": 5,
+            "clientName": "Eve",
+            "roles": [
+                {
+                    "roleId": 2,
+                    "roleName": "User"
+                }
+            ]
+        },
+        {
+            "clientId": 6,
+            "clientName": "Mallory",
+            "roles": [
+                {
+                    "roleId": 2,
+                    "roleName": "User"
+                }
+            ]
+        }
+    ]
+}
