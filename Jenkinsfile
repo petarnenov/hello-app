@@ -23,7 +23,7 @@ ls -la'''
 
     stage('Upload to Docker') {
       steps {
-        sh '''docker cp ./build 61764890a454:/usr/share/nginx/html
+        sh '''docker cp ./build 9fc0a696a39da126bc2486dff110c51cb498ef1dd8cec7cc44258b6b307120ea:/usr/share/nginx/html
 '''
       }
     }
