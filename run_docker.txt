@@ -12,3 +12,5 @@ docker run \
   --volume jenkins-docker-certs:/certs/client:ro \
   myjenkins-blueocean:lts
   
+start container shell
+docker exec -u 0 -it <container_id> bash
