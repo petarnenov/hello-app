@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.modal_confirmation{
+  background-color: coral;
+  border: 1px solid gray;
+  border-radius: 1rem;
+}
