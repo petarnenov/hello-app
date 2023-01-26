@@ -22,7 +22,7 @@ function App() {
   const [isOpen, setIsOpen] = React.useState(false);
   return (
     <div className="App">
-      {/* <Header title="State management" />
+      <Header title="State management" />
       <Search />
       <Provider store={store}>
         <Box p={10}>
@@ -55,7 +55,7 @@ function App() {
       <button onClick={() => setIsOpen(true)}>Open modal</button>
       <DialogModal isOpen={isOpen} cssClass="modal_confirmation">
         <ConfirmModal onClose={() => setIsOpen(false)} onConfirm={() => null} />
-      </DialogModal> */}
+      </DialogModal>
       <MassiveSearch />
     </div>
   );
