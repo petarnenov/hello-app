@@ -1,4 +1,4 @@
-import React, { Suspense, useDeferredValue, useEffect } from "react";
+import React, { Suspense, useDeferredValue } from "react";
 import SearchResults from "./SearchResults";
 
 const Search = () => {
